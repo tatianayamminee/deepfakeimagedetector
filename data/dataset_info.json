@@ -1,0 +1,40 @@
+{
+  "source": "https://huggingface.co/datasets/Rajarshi-Roy-research/Defactify_Image_Dataset",
+  "paper": "A Comprehensive Dataset for Human vs. AI Generated Image Detection (Defactify)",
+  "real_images": "MS COCO photographs",
+  "generators": {
+    "sd21": "Stable Diffusion 2.1",
+    "sdxl": "SDXL",
+    "sd3": "Stable Diffusion 3",
+    "dalle3": "DALL-E 3",
+    "midjourney": "Midjourney v6"
+  },
+  "seed": 490,
+  "preprocessing": "short side resized to 256 px, JPEG quality 92 (identical for both classes)",
+  "images_per_split": {
+    "train": {
+      "real": 7000,
+      "sd21": 1400,
+      "sdxl": 1400,
+      "sd3": 1400,
+      "dalle3": 1400,
+      "midjourney": 1400
+    },
+    "val": {
+      "real": 500,
+      "sd21": 100,
+      "sdxl": 100,
+      "sd3": 100,
+      "dalle3": 100,
+      "midjourney": 100
+    },
+    "test": {
+      "real": 1000,
+      "sd21": 200,
+      "sdxl": 200,
+      "sd3": 200,
+      "dalle3": 200,
+      "midjourney": 200
+    }
+  }
+}

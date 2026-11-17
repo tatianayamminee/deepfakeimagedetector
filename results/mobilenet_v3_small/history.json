@@ -1,0 +1,96 @@
+{
+  "train_minutes": 6.138572716712952,
+  "device": "mps",
+  "epochs": [
+    {
+      "epoch": 1,
+      "phase": "heads only",
+      "train_loss": 1.0152495380388487,
+      "train_acc": 0.6864248853211009,
+      "val_loss": 0.7463358192443847,
+      "val_acc": 0.709,
+      "seconds": 20.252970933914185
+    },
+    {
+      "epoch": 2,
+      "phase": "heads only",
+      "train_loss": 0.8744382322381395,
+      "train_acc": 0.763618119266055,
+      "val_loss": 0.7069309797286988,
+      "val_acc": 0.744,
+      "seconds": 14.957580804824829
+    },
+    {
+      "epoch": 3,
+      "phase": "fine-tune",
+      "train_loss": 0.7227060025164841,
+      "train_acc": 0.804329128440367,
+      "val_loss": 0.5440856339931488,
+      "val_acc": 0.821,
+      "seconds": 46.20609259605408
+    },
+    {
+      "epoch": 4,
+      "phase": "fine-tune",
+      "train_loss": 0.46153559467387856,
+      "train_acc": 0.8895498853211009,
+      "val_loss": 0.37302374649047854,
+      "val_acc": 0.889,
+      "seconds": 45.03803324699402
+    },
+    {
+      "epoch": 5,
+      "phase": "fine-tune",
+      "train_loss": 0.3759387535376286,
+      "train_acc": 0.9132024082568807,
+      "val_loss": 0.28480003428459166,
+      "val_acc": 0.916,
+      "seconds": 41.01278495788574
+    },
+    {
+      "epoch": 6,
+      "phase": "fine-tune",
+      "train_loss": 0.3131272833144993,
+      "train_acc": 0.9288274082568807,
+      "val_loss": 0.2953286004066467,
+      "val_acc": 0.904,
+      "seconds": 39.97118902206421
+    },
+    {
+      "epoch": 7,
+      "phase": "fine-tune",
+      "train_loss": 0.27240057945798296,
+      "train_acc": 0.9381450688073395,
+      "val_loss": 0.262545175075531,
+      "val_acc": 0.918,
+      "seconds": 39.20630884170532
+    },
+    {
+      "epoch": 8,
+      "phase": "fine-tune",
+      "train_loss": 0.23941421724104006,
+      "train_acc": 0.9459575688073395,
+      "val_loss": 0.27795899760723114,
+      "val_acc": 0.919,
+      "seconds": 41.14160895347595
+    },
+    {
+      "epoch": 9,
+      "phase": "fine-tune",
+      "train_loss": 0.2183761314719642,
+      "train_acc": 0.9532683486238532,
+      "val_loss": 0.2588671491146088,
+      "val_acc": 0.919,
+      "seconds": 39.791569232940674
+    },
+    {
+      "epoch": 10,
+      "phase": "fine-tune",
+      "train_loss": 0.1947341628646085,
+      "train_acc": 0.9604357798165137,
+      "val_loss": 0.25566663408279416,
+      "val_acc": 0.923,
+      "seconds": 40.21372318267822
+    }
+  ]
+}

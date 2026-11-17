@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset images: rebuilt with `python train.py prepare` (see data/dataset_info.json)
+data/*
+!data/dataset_info.json
+
+# Local settings
+.claude/
+.DS_Store

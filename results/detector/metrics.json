@@ -1,0 +1,43 @@
+{
+  "name": "detector",
+  "backbone": "mobilenet_v3_large",
+  "augmentation": true,
+  "calibration_threshold": 0.4799999999999999,
+  "test_images": 2000,
+  "accuracy": 0.959,
+  "precision": 0.9741735537190083,
+  "recall": 0.943,
+  "f1": 0.9583333333333334,
+  "roc_auc": 0.9918250000000001,
+  "confusion_matrix": {
+    "real_as_real": 975,
+    "real_as_ai": 25,
+    "ai_as_real": 57,
+    "ai_as_ai": 943
+  },
+  "correct_by_class": {
+    "Real photos": 0.975,
+    "Stable Diffusion 2.1": 0.905,
+    "SDXL": 0.94,
+    "Stable Diffusion 3": 0.9,
+    "DALL-E 3": 1.0,
+    "Midjourney v6": 0.97
+  },
+  "generator_identification_accuracy": 0.849,
+  "robustness_accuracy": {
+    "clean": 0.959,
+    "JPEG 70": 0.918,
+    "JPEG 40": 0.9325,
+    "blur": 0.8895,
+    "half size": 0.863,
+    "feed (half size + JPEG 50)": 0.872
+  },
+  "cost": {
+    "params_millions": 2.977718,
+    "size_mb": 11.910872,
+    "gflops": 0.21408672,
+    "cpu_ms_per_image": 38.87058167718351,
+    "train_minutes": 12.270557018121083,
+    "train_device": "mps"
+  }
+}
